@@ -24,7 +24,11 @@ https://drive.google.com/drive/folders/1EbT_io91RcJXL8oMNdr28iqtYIUw5u0l
 
 https://docs.google.com/document/d/1JmKwuzVgmCqtueKINvogpsDij-3Yo1KdmetB1dpoy5Q/edit
 
-### 6. Prototype Application
+### 8. Périmètre d’étude pris en compte
+
+https://docs.google.com/document/d/17JcWAYsu0hylE15dv7zqtVa5znquYhbyX2v-UJLDeSo/edit
+
+### 7. Prototype Application
 
  - Solution 1 : https://drive.google.com/drive/folders/1hCXT8HQZQSXTdarQ6cRID5CqGvWhIhjR
  - Solution 2 : https://drive.google.com/drive/folders/1MAkpQl-4T7XDqDHjA0saCxdyRyvh3GZY
