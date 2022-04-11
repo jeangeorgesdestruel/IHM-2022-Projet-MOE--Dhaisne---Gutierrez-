@@ -24,7 +24,7 @@ https://drive.google.com/drive/folders/1EbT_io91RcJXL8oMNdr28iqtYIUw5u0l
 
 https://docs.google.com/document/d/1JmKwuzVgmCqtueKINvogpsDij-3Yo1KdmetB1dpoy5Q/edit
 
-### 8. Périmètre d’étude pris en compte
+### 6. Périmètre d’étude pris en compte
 
 https://docs.google.com/document/d/17JcWAYsu0hylE15dv7zqtVa5znquYhbyX2v-UJLDeSo/edit
 
