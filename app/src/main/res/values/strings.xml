@@ -29,6 +29,12 @@
     <string name="resultat_rech">Résultat de la recherche</string>
     <string name="mes_reserv">Mes réservations</string>
 
-
+    <string-array name="categorie">
+        <item>Catégorie</item>
+        <item>Cours</item>
+        <item>Travaux</item>
+        <item>Réunion</item>
+        <item>...</item>
+    </string-array>
 
 </resources>
