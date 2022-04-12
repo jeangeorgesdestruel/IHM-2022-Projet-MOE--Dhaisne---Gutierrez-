@@ -8,7 +8,7 @@
     <string name="selectionne">sélectionné</string>
     <string name="infosalle">Information sur la salle</string>
     <string name="equipements">Equipements disponible :</string>
-    <string name="capacite">Capacité :</string>
+    <string name="capacite">Capacité : 15 personnes</string>
     <string name="disponibilité">Voir les disponibilités</string>
     <string name="reserversalle">Réserver la salle</string>
     <string name="le">Le :</string>
