@@ -1,6 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="1"
+    android:layout_margin="10dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/reserver_salle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reserversalle"
+        android:layout_gravity="center"/>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_le"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/le"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/input_le"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/de"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/input_de"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/input_a"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <Spinner
+        android:id="@+id/categorie_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nom" />
+
+        <EditText
+            android:id="@+id/input_nom"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description" />
+
+        <EditText
+            android:id="@+id/input_desc"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/texte_rep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repetition" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/idRepetition">
+
+        <RadioButton
+            android:id="@+id/texte_hebdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/hebdo"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/texte_mensuelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mensuel"
+            android:onClick="onRadioButtonClicked"/>
+       </RadioGroup>
+
+    <TextView
+        android:id="@+id/texte_finRep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finRepetition" />
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_le_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/le" />
+
+        <EditText
+            android:id="@+id/input_finLe"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+</TableLayout>
