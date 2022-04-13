@@ -29,6 +29,7 @@
     <string name="rechercher">Rechercher</string>
     <string name="resultat_rech">Résultat de la recherche</string>
     <string name="mes_reserv">Mes réservations</string>
+    <string name="reservation1">Réservation 1</string>
 
     <string-array name="categorie">
         <item>Catégorie</item>
