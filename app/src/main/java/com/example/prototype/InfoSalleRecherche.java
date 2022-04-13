@@ -6,41 +6,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ResultatRecherche extends AppCompatActivity implements AdapterView.OnItemClickListener {
-
-    ListView listeResultatRecherche;
-
-    ArrayAdapter<String> adaptateur;
-
-    String[] resultatRecherche;
+public class InfoSalleRecherche extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.resultatrech);
+        setContentView(R.layout.info_salle_recherche);
 
-        listeResultatRecherche = (ListView) findViewById(R.id.resultat_recherche);
-
-        resultatRecherche = getResources().getStringArray(R.array.resultRecherche);
-
-        adaptateur = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, resultatRecherche);
-
-        listeResultatRecherche.setAdapter(adaptateur);
-
-        listeResultatRecherche.setOnItemClickListener(this);
     }
 
-    @Override
-    public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-        Intent intent = new Intent(getApplicationContext(),InfoSalleRecherche.class);
-        startActivity(intent);
-    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -71,6 +48,11 @@ public class ResultatRecherche extends AppCompatActivity implements AdapterView.
 
     public void mesReservations() {
         Intent intent = new Intent(getApplicationContext(),MesReservations.class);
+        startActivity(intent);
+    }
+
+    public void reservationOk(View view) {
+        Intent intent = new Intent(getApplicationContext(),ReservationOk.class);
         startActivity(intent);
     }
 }
