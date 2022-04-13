@@ -45,4 +45,17 @@
         <item>...</item>
     </string-array>
 
+    <string-array name="resultRecherche">
+        <item>Salle 1</item>
+        <item>Salle 2</item>
+        <item>Salle 3</item>
+        <item>Salle 6</item>
+        <item>Salle 8</item>
+    </string-array>
+
+    <string-array name="mesReserv">
+        <item>Réservation 1</item>
+        <item>Réservation 2</item>
+    </string-array>
+
 </resources>
