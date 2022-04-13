@@ -25,6 +25,7 @@
     <string name="retour_acceuil">Retourner à l\'accueil</string>
     <string name="option">Option :</string>
     <string name="champ_etage">Etage :</string>
+    <string name="champ_batiment">Bâtiment :</string>
     <string name="rechercher">Rechercher</string>
     <string name="resultat_rech">Résultat de la recherche</string>
     <string name="mes_reserv">Mes réservations</string>
@@ -34,6 +35,12 @@
         <item>Cours</item>
         <item>Travaux</item>
         <item>Réunion</item>
+        <item>...</item>
+    </string-array>
+
+    <string-array name="option">
+        <item>Video projecteur</item>
+        <item>Salle informaique</item>
         <item>...</item>
     </string-array>
 

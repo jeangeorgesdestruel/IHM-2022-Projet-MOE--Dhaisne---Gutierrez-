@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="1"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/info_salle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/infosalle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/equipements"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="               - Ordinateurs"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="               - Videoprojecteur"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="               - ..."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/capacite"/>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_batiment_recherche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/champ_batiment"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/input_batiement_recherche"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_etage_recherche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/champ_etage"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/input_etage_recherche"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reserversalle"
+        android:layout_marginTop="50dp"/>
+
+</TableLayout>

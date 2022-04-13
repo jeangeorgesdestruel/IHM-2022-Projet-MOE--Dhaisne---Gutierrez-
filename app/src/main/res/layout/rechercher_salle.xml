@@ -8,22 +8,23 @@
     android:layout_margin="10dp">
 
     <TextView
-        android:id="@+id/reserver_salle"
+        android:id="@+id/titre_rechercher_salle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reserversalle"
-        android:layout_gravity="center"/>
+        android:text="@string/btn_rech"
+        android:layout_gravity="center"
+        android:gravity="center"/>
 
     <TableRow>
         <TextView
-            android:id="@+id/texte_le"
+            android:id="@+id/texte_le_recherche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/le"
             android:layout_column="0"/>
 
         <EditText
-            android:id="@+id/input_le"
+            android:id="@+id/input_le_recherche"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_column="1"/>
@@ -31,14 +32,14 @@
 
     <TableRow>
         <TextView
-            android:id="@+id/texte_de"
+            android:id="@+id/texte_de_recherche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/de"
             android:layout_column="0"/>
 
         <EditText
-            android:id="@+id/input_de"
+            android:id="@+id/input_de_recherche"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_column="1"/>
@@ -46,33 +47,14 @@
 
     <TableRow>
         <TextView
-            android:id="@+id/texte_a"
+            android:id="@+id/texte_a_recherche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/a"
             android:layout_column="0"/>
 
         <EditText
-            android:id="@+id/input_a"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_column="1"/>
-    </TableRow>
-
-    <Spinner
-        android:id="@+id/categorie_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TableRow>
-        <TextView
-            android:id="@+id/texte_nom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nom" />
-
-        <EditText
-            android:id="@+id/input_nom"
+            android:id="@+id/input_a_recherche"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_column="1"/>
@@ -80,61 +62,44 @@
 
     <TableRow>
         <TextView
-            android:id="@+id/texte_desc"
+            android:id="@+id/texte_option"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/description" />
+            android:text="@string/option"
+            android:layout_column="0"/>
+
+        <Spinner
+            android:id="@+id/option_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/texte_batiment_recherche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/champ_batiment"
+            android:layout_column="0"/>
 
         <EditText
-            android:id="@+id/input_desc"
+            android:id="@+id/input_batiement_recherche"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_column="1"/>
     </TableRow>
 
-    <TextView
-        android:id="@+id/texte_rep"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/repetition" />
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:id="@+id/idRepetition">
-
-        <RadioButton
-            android:id="@+id/texte_hebdo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="@string/hebdo"
-            android:onClick="onRadioButtonClicked"/>
-        <RadioButton
-            android:id="@+id/texte_mensuelle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mensuel"
-            android:onClick="onRadioButtonClicked"/>
-       </RadioGroup>
-
-    <TextView
-        android:id="@+id/texte_finRep"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/finRepetition" />
-
     <TableRow>
         <TextView
-            android:id="@+id/texte_le_2"
+            android:id="@+id/texte_etage_recherche"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/le" />
+            android:text="@string/champ_etage"
+            android:layout_column="0"/>
 
         <EditText
-            android:id="@+id/input_finLe"
+            android:id="@+id/input_etage_recherche"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_column="1"/>
@@ -145,7 +110,7 @@
             android:id="@+id/button_id"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/reserversalle"
+            android:text="@string/rechercher"
             android:layout_column="1" />
     </TableRow>
 
