@@ -54,7 +54,7 @@ public class MesReservations extends AppCompatActivity implements AdapterView.On
 
         // selon l'option sélectionnée dans le menu, on réalise le traitement adéquat
         switch(item.getItemId()) {
-            case R.id.option_mes_reservations :  		 // ajout d'une nouvelle cuisson
+            case R.id.option_mes_reservations :
                 mesReservations();
                 break;
             case R.id.option_retour_accueil:
