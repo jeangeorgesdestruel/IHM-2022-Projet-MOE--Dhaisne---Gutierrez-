@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),Etages.class);
         startActivity(intent);
     }
+
+    public void rechercherSalles(View view) {
+        Intent intent = new Intent(getApplicationContext(),RechercherSalle.class);
+        startActivity(intent);
+    }
 }

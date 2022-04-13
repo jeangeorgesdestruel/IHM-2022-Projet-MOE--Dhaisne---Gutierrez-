@@ -21,18 +21,21 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Etage 1"/>
+        android:text="Etage 1"
+        android:onClick="afficherSalles"/>
 
     <Button
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Etage 2"/>
+        android:text="Etage 2"
+        android:onClick="afficherSalles"/>
 
     <Button
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Etage 3"/>
+        android:text="Etage 3"
+        android:onClick="afficherSalles"/>
 
 </LinearLayout>

@@ -110,14 +110,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="@string/hebdo"
-            android:onClick="onRadioButtonClicked"/>
+            android:text="@string/hebdo" />
         <RadioButton
             android:id="@+id/texte_mensuelle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mensuel"
-            android:onClick="onRadioButtonClicked"/>
+            android:text="@string/mensuel" />
        </RadioGroup>
 
     <TextView

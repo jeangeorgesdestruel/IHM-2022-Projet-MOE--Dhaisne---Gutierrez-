@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Etages"></activity>
+        <activity android:name=".RechercherSalle"></activity>
+        <activity android:name=".Salles"></activity>
+        <activity android:name=".InfoSalle"></activity>
+        <activity android:name=".ReserverSalle"></activity>
     </application>
 
 </manifest>

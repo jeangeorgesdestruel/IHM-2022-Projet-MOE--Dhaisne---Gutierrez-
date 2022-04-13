@@ -1,23 +1,21 @@
 package com.example.prototype;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class Etages extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
+public class InfoSalle extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.etages);
+        setContentView(R.layout.infosalle);
 
     }
 
-    public void afficherSalles(View view) {
-        Intent intent = new Intent(getApplicationContext(),Salles.class);
+    public void reserverSalle(View view) {
+        Intent intent = new Intent(getApplicationContext(),ReserverSalle.class);
         startActivity(intent);
     }
-
 }
