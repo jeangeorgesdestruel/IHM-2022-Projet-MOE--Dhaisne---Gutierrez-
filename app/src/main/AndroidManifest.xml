@@ -23,6 +23,7 @@
         <activity android:name=".ReserverSalle"></activity>
         <activity android:name=".ReservationOk"></activity>
         <activity android:name=".ResultatRecherche"></activity>
+        <activity android:name=".MesReservations"></activity>
     </application>
 
 </manifest>

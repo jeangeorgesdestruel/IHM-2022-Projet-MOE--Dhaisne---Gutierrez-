@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.batiments);
-
-
     }
 
     @Override
@@ -34,14 +32,24 @@ public class MainActivity extends AppCompatActivity {
         // selon l'option sélectionnée dans le menu, on réalise le traitement adéquat
         switch(item.getItemId()) {
             case R.id.option_mes_reservations :  		 // ajout d'une nouvelle cuisson
-//                saisirAjouterCuisson();
+                mesReservations();
                 break;
             case R.id.option_retour_accueil:
-//                saisirRechercherAliment();
+                retourAccueil();
                 break;
 
         }
         return (super.onOptionsItemSelected(item));
+    }
+
+    public void retourAccueil() {
+        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void mesReservations() {
+        Intent intent = new Intent(getApplicationContext(),MesReservations.class);
+        startActivity(intent);
     }
 
     public void afficherEtages(View view) {
