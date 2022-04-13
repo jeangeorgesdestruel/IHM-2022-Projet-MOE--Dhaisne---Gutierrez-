@@ -57,7 +57,8 @@
             android:id="@+id/input_de"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:enabled="false"/>
     </TableRow>
 
     <TableRow
@@ -74,7 +75,8 @@
             android:id="@+id/input_a"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:enabled="false"/>
     </TableRow>
 
     <TableRow
@@ -91,7 +93,8 @@
             android:id="@+id/input_nom"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:enabled="false"/>
     </TableRow>
 
     <TableRow
@@ -108,7 +111,8 @@
             android:id="@+id/input_desc"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_column="1"/>
+            android:layout_column="1"
+            android:enabled="false"/>
     </TableRow>
 
 </TableLayout>
