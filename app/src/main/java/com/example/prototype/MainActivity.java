@@ -2,6 +2,7 @@ package com.example.prototype;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -12,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.formulairereserversalle);
+        setContentView(R.layout.batiments);
 
 //        Spinner spinner = (Spinner) findViewById(R.id.categorie_spinner);
 //        // Create an ArrayAdapter using the string array and a default spinner layout
@@ -26,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
 //    public void onRadioButtonClicked(View view) {
 //    }
+
+    public void afficherEtages(View view) {
+        Intent intent = new Intent(getApplicationContext(),Etages.class);
+        startActivity(intent);
+    }
 }
