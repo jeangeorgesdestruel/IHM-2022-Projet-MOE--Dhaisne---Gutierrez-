@@ -21,6 +21,7 @@
         <activity android:name=".Salles"></activity>
         <activity android:name=".InfoSalle"></activity>
         <activity android:name=".ReserverSalle"></activity>
+        <activity android:name=".ReservationOk"></activity>
     </application>
 
 </manifest>

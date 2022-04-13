@@ -33,17 +33,20 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="1"
-            android:text="S1"/>
+            android:text="S1"
+            android:onClick="infoSalle"/>
         <Button
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="2"
-            android:text="S2"/>
+            android:text="S2"
+            android:onClick="infoSalle"/>
         <Button
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="3"
-            android:text="S3"/>
+            android:text="S3"
+            android:onClick="infoSalle"/>
     </TableRow>
     <TableRow android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -52,7 +55,8 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="3"
-            android:text="S4"/>
+            android:text="S4"
+            android:onClick="infoSalle"/>
     </TableRow>
     <TableRow android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -61,7 +65,8 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="3"
-            android:text="S5"/>
+            android:text="S5"
+            android:onClick="infoSalle"/>
     </TableRow>
 
     <TableRow android:layout_width="wrap_content"
@@ -70,16 +75,19 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="1"
-            android:text="S8"/>
+            android:text="S8"
+            android:onClick="infoSalle"/>
         <Button
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="2"
-            android:text="S7"/>
+            android:text="S7"
+            android:onClick="infoSalle"/>
         <Button
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_column="3"
-            android:text="S6"/>
+            android:text="S6"
+            android:onClick="infoSalle"/>
     </TableRow>
 </TableLayout>
