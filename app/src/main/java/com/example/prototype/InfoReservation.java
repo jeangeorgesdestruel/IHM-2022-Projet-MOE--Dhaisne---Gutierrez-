@@ -5,41 +5,21 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MesReservations extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class InfoReservation extends AppCompatActivity {
 
-    ListView listeMesReservations;
-
-    ArrayAdapter<String> adaptateur;
-
-    String[] resultatReservation;
-
+    EditText le;
+    EditText de;
+    EditText a;
+    EditText nom;
+    EditText description;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mes_reservations);
-
-        listeMesReservations = (ListView) findViewById(R.id.resultat_recherche);
-
-        resultatReservation = getResources().getStringArray(R.array.mesReserv);
-
-        adaptateur = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, resultatReservation);
-
-        listeMesReservations.setAdapter(adaptateur);
-
-        listeMesReservations.setOnItemClickListener(this);
-    }
-
-    @Override
-    public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-        Intent intent = new Intent(getApplicationContext(),InfoReservation.class);
-        startActivity(intent);
+        setContentView(R.layout.info_reservation);
     }
 
     @Override
