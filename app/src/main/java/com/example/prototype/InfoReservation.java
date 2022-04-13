@@ -20,6 +20,21 @@ public class InfoReservation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.info_reservation);
+
+        le = findViewById(R.id.input_le);
+        de = findViewById(R.id.input_de);
+        a = findViewById(R.id.input_a);
+        nom = findViewById(R.id.input_nom);
+        description = findViewById(R.id.input_desc);
+
+        //Simulation d'une réservation
+        le.setText("13/04/2022");
+        de.setText("8h");
+        a.setText("10h");
+        nom.setText("IHM - Salle A201");
+        description.setText("Cours IHM - Franck Silvestre");
+
+        //Attention la modification n'est pas prise en compte dans l'étude
     }
 
     @Override
@@ -34,7 +49,7 @@ public class InfoReservation extends AppCompatActivity {
 
         // selon l'option sélectionnée dans le menu, on réalise le traitement adéquat
         switch(item.getItemId()) {
-            case R.id.option_mes_reservations :  		 // ajout d'une nouvelle cuisson
+            case R.id.option_mes_reservations :
                 mesReservations();
                 break;
             case R.id.option_retour_accueil:
